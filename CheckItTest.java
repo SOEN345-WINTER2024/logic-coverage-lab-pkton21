@@ -48,7 +48,7 @@ public class CheckItTest {
 
     @Test
     public void checkCACC(){
-        CheckIt.checkIt(true, true, true);
+        CheckIt.checkIt(true, true, false);
         CheckIt.checkIt(false, false, true);
         assertEquals("P is true\n" +
                 "P isn't true\n", os.toString());
