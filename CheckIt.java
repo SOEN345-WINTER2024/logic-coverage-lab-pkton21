@@ -1,3 +1,5 @@
+import static java.lang.Boolean.parseBoolean;
+
 public class CheckIt
 {
 
@@ -25,7 +27,7 @@ public class CheckIt
    
       for (int i = 0; i< argv.length; i++)
       {
-         inArr [i] = Boolean.parseBoolean(argv[i]);
+         inArr [i] = parseBoolean(argv[i]);
       }
    
       checkIt (inArr[0], inArr[1], inArr[2]);
